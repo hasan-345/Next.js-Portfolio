@@ -23,17 +23,19 @@ const Hero = () => {
            <p className='uppercase tracking-widest text-sm md:text-md text-center text-blue-100 max-w-80'>
             Dynamic Web Magic with Next.js
            </p>
-           <TextGenerateEffect className='text-[40px] text-center md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless Experience' />
+           <TextGenerateEffect className='text-[40px] text-center md:text-5xl lg:text-6xl' words='Turning Visions into Effortless Interactions' />
            <p className='text-center text-[17px] md:text-lg lg:text-2xl mb-4 mt-3 md:tracking-wider'>
             Hi,I&apos;m Ahtisham, a Next.js Developer
            </p>
-      <div className='my-5 mt-7'>    
+      <div className='my-5 mt-7'> 
+      <a href="https://www.upwork.com/freelancers/~0136f9e4718c573c93" target='_blank'>     
       <button className="relative inline-flex h-12 overflow-hidden rounded-sm p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
         <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-sm bg-slate-950 px-9 py-1 text-md font-medium text-white backdrop-blur-3xl">
-          Show work <IoIosSend className='text-xl ml-2' />
+          Upwork <IoIosSend className='text-xl ml-2' />
         </span>
       </button>
+      </a>
       </div>
         </div>
       </div>

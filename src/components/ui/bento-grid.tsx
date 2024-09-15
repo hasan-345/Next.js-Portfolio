@@ -53,7 +53,7 @@ export const BentoGridItem = ({
 
 
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const rightLists = ["NextJs", "ReactNative", "GraphQL"];
 
   const [copied, setcopied] = useState(false)
 
@@ -114,7 +114,7 @@ export const BentoGridItem = ({
 
              <button onClick={copyEmail} className="mt-3 mb-3 cursor-pointer relative text-sm overflow-hidden rounded-sm p-[1px] h-10 ">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex gap-2 h-full w-full cursor-pointer items-center justify-center rounded-sm bg-slate-950 px-4 text-md font-medium text-white backdrop-blur-3xl">
+              <span className="inline-flex gap-2 h-full w-full cursor-pointer items-center justify-center rounded-sm bg-black-200 backdrop-filter backdrop-blur-md px-4 bg-opacity-85 text-md font-medium text-white">
                 {copied? <BsCheckLg/>:<MdOutlineFileCopy/>}  Copy my email address
               </span>
             </button>
@@ -134,7 +134,7 @@ export const BentoGridItem = ({
            
 
            {id !== 6 && (
-              <div className={`font-sans font-bold ${id === 4 || id === 2? "lg:text-2xl": "lg:text-4xl"} text-xl md:max-w-[500px] max-w-96 z-50 ${id} p-5 px-7`}>
+              <div className={`font-sans font-bold ${id === 4 || id === 2? "lg:text-2xl": "lg:text-4xl"} text-xl md:max-w-[450px] max-w-96 z-50 ${id} p-5 px-7`}>
               {title}
               </div>
            )}
